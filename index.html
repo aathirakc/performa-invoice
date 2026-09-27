@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proforma Invoice Manager</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#18202a}
+header{background:#17212b;color:#fff;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+header h1{margin:0;font-size:21px}
+.wrap{max-width:1180px;margin:22px auto;padding:0 15px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+button,.btn{border:0;border-radius:8px;padding:10px 14px;background:#1769aa;color:#fff;cursor:pointer;font-weight:600}
+button.secondary{background:#e8edf2;color:#25313d}
+button.danger{background:#b83232}
+button.pdf{background:#4d8b3a}
+.tab{display:none}.tab.active{display:block}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 2px 10px #0000000b;margin-bottom:16px}
+label{display:block;font-size:13px;font-weight:600;margin:9px 0 5px}
+input,textarea,select{width:100%;padding:10px;border:1px solid #d4dbe2;border-radius:7px;font-size:14px}
+textarea{min-height:70px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{padding:9px;border-bottom:1px solid #e6e9ed;text-align:left;font-size:14px}
+th{background:#f7f8fa}
+.right{text-align:right}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.muted{color:#66737f;font-size:13px}
+.total{font-size:18px;font-weight:800}
+.badge{padding:5px 8px;border-radius:20px;background:#eaf4ff;color:#1769aa;font-size:12px}
+
+/* Invoice preview on screen */
+.invoice-paper{
+  background:#fff;
+  max-width:1000px;
+  margin:0 auto;
+  padding:35px 40px;
+  box-shadow:0 2px 12px #00000012;
+}
+.inv-top{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}
+.inv-logo{width:145px;min-height:65px;display:flex;align-items:flex-start}
+.inv-logo img{max-width:135px;max-height:70px}
+.logo-placeholder{font-weight:800;color:#61934f;font-size:20px;line-height:1.05}
+.seller{text-align:right;font-size:14px;line-height:1.45;color:#555}
+.inv-line{border:0;border-top:1px solid #ddd;margin:28px 0 34px}
+.buyer{text-align:left;font-size:14px;line-height:1.45;color:#555;margin-left:54%}
+.title-row{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin:32px 0 18px}
+.inv-title{font-size:30px;color:#72a35d;font-weight:500}
+.meta{font-size:13px;color:#555;text-align:right}
+.invoice-table{width:100%;border-collapse:collapse;border:1px solid #333;margin-top:10px}
+.invoice-table th,.invoice-table td{border:1px solid #555;padding:8px 7px;font-size:12px;vertical-align:top}
+.invoice-table th{background:#fff;color:#777;font-weight:600}
+.invoice-table .desc{width:41%}
+.invoice-table .imgcol{width:9%;text-align:center}
+.invoice-table .qtycol{width:13%}
+.invoice-table .pricecol{width:14%}
+.invoice-table .taxcol{width:11%}
+.invoice-table .amtcol{width:12%}
+.product-img{max-width:65px;max-height:65px;object-fit:contain}
+.summary-wrap{display:flex;justify-content:flex-end;margin-top:15px}
+.summary{width:48%;border-collapse:collapse}
+.summary td{padding:7px;border:1px solid #aaa;font-size:12px}
+.summary .label{color:#6b9a5b;font-weight:600}
+.summary .grand{background:#7caf67;color:#fff;font-size:14px;font-weight:700}
+.bottom-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:25px}
+.bottom-grid h3{font-size:14px;margin:0 0 10px}
+.bottom-grid p{font-size:12px;line-height:1.6;margin:2px 0;color:#555}
+.footer{border-top:2px solid #111;margin-top:42px;padding-top:8px;text-align:center;font-size:12px;color:#555}
+.empty-note{color:#888;font-size:12px;padding:12px 0}
+
+@media(max-width:750px){
+  .grid{grid-template-columns:1fr}
+  header{align-items:flex-start;flex-direction:column}
+  .invoice-paper{padding:20px}
+  .buyer{margin-left:0;margin-top:20px}
+  .title-row{flex-direction:column;align-items:flex-start}
+  .meta{text-align:left}
+  .summary{width:100%}
+  .bottom-grid{grid-template-columns:1fr}
+  .invoice-table{font-size:10px}
+}
+
+@media print{
+  @page{size:A4;margin:8mm}
+  body{background:#fff}
+  header,nav,.no-print,.editor-card{display:none!important}
+  .wrap{margin:0;max-width:none;padding:0}
+  .tab{display:block!important}
+  #invoice > .grid,
+  #invoice > .card:not(#printArea){display:none!important}
+  #printArea{display:block!important;margin:0;padding:0;background:#fff;box-shadow:none}
+  .invoice-paper{box-shadow:none;max-width:none;padding:8mm 7mm}
+  .print-only{display:block!important}
+}
+.print-only{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Proforma Invoice Manager</h1>
+
+</header>
+
+<div class="wrap">
+<nav class="no-print">
+  <button onclick="tab('invoice')">Create Invoice</button>
+  <button onclick="tab('products')" class="secondary">Products</button>
+  <button onclick="tab('history')" class="secondary">Invoice History</button>
+
+</nav>
+
+<section id="invoice" class="tab active">
+  <div class="grid editor-card">
+    <div class="card">
+      <h2>Invoice</h2>
+      <div class="grid">
+
+        <div><label>Date</label><input id="invDate" type="date"></div>
+      </div>
+      <label>Customer Name</label><input id="customer">
+      <label>Customer Address</label><textarea id="address"></textarea>
+      <label>Phone number(optional)</label><input id="gstin">
+      <label>sales person name</label><input id="sperson">
+    </div>
+    <div class="card">
+      <img src="jimco.jpeg" width="200" >
+      <h2>JIMCO EXIM AND TRADE PVT LTD</h2>
+     Oasis Tower, Chettichira Junction, SCB Road<br>
+            Kadaravandram, Cochin - 20<br>
+            Ph: 9446 544 355, 8129244177<br>
+            E-mail: jimcoexim@yahoo.com
+    </div>
+  </div>
+
+  <div class="card editor-card">
+    <h2>Products</h2>
+    <table id="items">
+      <thead><tr><th>Product</th><th>Qty</th><th>Price</th><th>Amount</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <div class="actions no-print"><button onclick="addItem()">+ Add Product</button></div>
+    <div style="margin-top:18px;max-width:360px;margin-left:auto">
+      <p>Subtotal: <span class="right" id="subtotal">₹0.00</span></p>
+      <p>GST: <input id="tax" type="number" value="0" min="0" step=".01" oninput="calc()"> %</p>
+      <p>GST Amount: <span class="right" id="taxAmt">₹0.00</span></p>
+      <p class="total">Grand Total: <span class="right" id="grand">₹0.00</span></p>
+    </div>
+    <div class="actions no-print">
+      <button onclick="saveInvoice()">Save Invoice</button>
+      <button class="pdf" onclick="printInvoice()">Save / PDF</button>
+      <button class="secondary" onclick="newInvoice()">New Invoice</button>
+    </div>
+  </div>
+
+  <!-- Printable invoice -->
+  <div id="printArea" class="invoice-paper print-only"></div>
+</section>
+
+<section id="products" class="tab">
+  <div class="card">
+    <h2>Product Database</h2>
+    <div class="grid">
+      <div><label>Product Name</label><input id="pname"></div>
+      <div><label>Price</label><input id="pprice" type="number" step=".01"></div>
+      <div><label>Quantity in Stock</label><input id="pqty" type="number" step="1"></div>
+      <div><label>Product Code</label><input id="pcode"></div>
+      <div><label>Product Image URL (optional)</label><input id="pimage" placeholder="https://..."></div>
+    </div>
+    <div class="actions"><button onclick="addProduct()">Add Product</button></div>
+    <table>
+      <thead><tr><th>Code</th><th>Product</th><th>Price</th><th>Stock</th><th></th></tr></thead>
+      <tbody id="productRows"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="history" class="tab">
+  <div class="card">
+    <h2>Invoice History</h2>
+    <p class="muted">Saved invoices remain in this browser.</p>
+    <table>
+      <thead><tr><th>Invoice</th><th>Date</th><th>Customer</th><th>Total</th><th></th></tr></thead>
+      <tbody id="historyRows"></tbody>
+    </table>
+  </div>
+</section>
+
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+
+let products=JSON.parse(localStorage.getItem('products')||'[]');
+let invoices=JSON.parse(localStorage.getItem('invoices')||'[]');
+let settings=JSON.parse(localStorage.getItem('settings')||'{}');
+
+const defaultSettings={
+  cname:'Jimco Exim and Trade Pvt Ltd',
+    caddress:'Subhash Chandra Bose Rd, Kumaranasan Nagar, Vyttila, Kochi, Ernakulam, Keralam 682020',
+    contact:'094465 44355',
+    gst:'32AACCJ4142P1ZI',
+  bankName:'Jimco Exim and Trade Pvt Ltd ',
+  bankAccount:'A/C No -259446544355',
+  bank:'Indusind Bank ',
+  ifsc:'INDB0000010',
+  branch:'MG Road Branch',
+  logo:'<img src=jimco.jpeg width="1500">',
+  terms:'1) Payment Terms: Immediate Payment\\n2) Price: Indicates the cost of each item.\\n3) Taxes: Extra\\n4) Shipping Cost:'
+};
+
+settings=Object.assign({},defaultSettings,settings);
+
+function money(n){
+  return '₹'+Number(n||0).toLocaleString('en-IN',{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+function esc(s){
+  return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+function nl(s){return esc(s).replace(/\n/g,'<br>')}
+
+function tab(id){
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  $(id).classList.add('active');
+  if(id==='products')renderProducts();
+  if(id==='history')renderHistory();
+}
+
+function nextNo(){
+  return 'PI-'+new Date().getFullYear()+'-'+String(invoices.length+1).padStart(4,'0');
+}
+
+function newInvoice(){
+
+  $('invDate').value=new Date().toISOString().slice(0,10);
+  $('customer').value='';
+  $('address').value='';
+  $('gstin').value='';
+  $('sperson').value='';
+  $('tax').value=0;
+  $('items').querySelector('tbody').innerHTML='';
+  addItem();
+  calc();
+  renderPrintInvoice();
+}
+
+function addItem(name='',qty=1,price=0){
+  let tr=document.createElement('tr');
+  tr.innerHTML=`<td><select class="prod" onchange="syncRow(this)">
+    <option value="">Select product</option>
+    ${products.map((p,i)=>`<option value="${i}" ${p.name===name?'selected':''}>${esc(p.name)}</option>`).join('')}
+  </select></td>
+  <td><input class="qty" type="number" min="1" value="${qty}" oninput="calc()"></td>
+  <td><input class="price" type="number" min="0" step=".01" value="${price}" oninput="calc()"></td>
+  <td class="amount">₹0.00</td>
+  <td><button class="danger no-print" onclick="this.closest('tr').remove();calc()">×</button></td>`;
+  $('items').querySelector('tbody').appendChild(tr);
+  calc();
+}
+
+function syncRow(s){
+  let p=products[+s.value],tr=s.closest('tr');
+  if(p){
+    tr.querySelector('.price').value=p.price;
+    tr.dataset.image=p.image||'';
+  }
+  calc();
+}
+
+function rows(){
+  return [...document.querySelectorAll('#items tbody tr')]
+    .map(tr=>({
+      name:tr.querySelector('.prod').selectedOptions[0]?.text||'',
+      qty:+tr.querySelector('.qty').value||0,
+      price:+tr.querySelector('.price').value||0,
+      amount:(+tr.querySelector('.qty').value||0)*(+tr.querySelector('.price').value||0),
+      image:tr.dataset.image||''
+    }))
+    .filter(x=>x.name!=='Select product');
+}
+
+function calc(){
+  let r=rows(),sub=r.reduce((a,x)=>a+x.amount,0),rate=+$('tax').value||0,ta=sub*rate/100;
+  document.querySelectorAll('.amount').forEach((e,i)=>e.textContent=money(r[i]?.amount||0));
+  $('subtotal').textContent=money(sub);
+  $('taxAmt').textContent=money(ta);
+  $('grand').textContent=money(sub+ta);
+  renderPrintInvoice();
+}
+
+function currentInvoice(){
+  let r=rows();
+  let sub=r.reduce((a,x)=>a+x.amount,0);
+  let rate=+$('tax').value||0;
+  let ta=sub*rate/100;
+  return {
+
+
+    invDate:$('invDate').value,
+    customer:$('customer').value,
+    address:$('address').value,
+    gstin:$('gstin').value,
+    sperson:$('sperson').value,
+    tax:rate,
+    items:r,
+    subtotal:sub,
+    taxAmount:ta,
+    total:sub+ta,
+
+  };
+}
+
+function saveInvoice(){
+  let inv=currentInvoice();
+  if(!inv.customer){alert('Enter customer name');return}
+  let existing=invoices.findIndex(x=>x.no===inv.no);
+  if(existing>=0) invoices[existing]=inv;
+  else invoices.push(inv);
+  localStorage.setItem('invoices',JSON.stringify(invoices));
+  alert('Invoice saved');
+  renderHistory();
+}
+
+function renderProducts(){
+  $('productRows').innerHTML=products.map((p,i)=>`<tr>
+    <td>${esc(p.code||'')}</td><td>${esc(p.name)}</td><td>${money(p.price)}</td><td>${p.qty}</td>
+    <td><button class="danger" onclick="products.splice(${i},1);localStorage.setItem('products',JSON.stringify(products));renderProducts()">Delete</button></td>
+  </tr>`).join('');
+}
+
+function addProduct(){
+  let name=$('pname').value.trim();
+  if(!name)return alert('Enter product name');
+  products.push({
+    name,
+    price:+$('pprice').value||0,
+    qty:+$('pqty').value||0,
+    code:$('pcode').value.trim(),
+    image:$('pimage').value.trim()
+  });
+  localStorage.setItem('products',JSON.stringify(products));
+  $('pname').value='';$('pprice').value='';$('pqty').value='';$('pcode').value='';$('pimage').value='';
+  renderProducts();
+}
+
+function renderHistory(){
+  $('historyRows').innerHTML=invoices.slice().reverse().map((x,i)=>`<tr>
+    <td>${esc(x.no)}</td><td>${esc(x.date)}</td><td>${esc(x.customer)}</td><td>${money(x.total)}</td>
+    <td><button onclick="loadInvoice(${invoices.length-1-i})">Open</button></td>
+  </tr>`).join('');
+}
+function saveSettings(){
+  settings={
+    name:$('cname').value,
+    address:$('caddress').value,
+    contact:$('ccontact').value,
+    gst:$('cgst').value,
+    bankName:$('bankName').value,
+    bankAccount:$('bankAccount').value,
+    bank:$('bank').value,
+    ifsc:$('ifsc').value,
+    branch:$('branch').value,
+    logo:$('logo').value,
+    terms:$('terms').value
+  };
+  localStorage.setItem('settings',JSON.stringify(settings));
+  preview();
+  renderPrintInvoice();
+  alert('Settings saved');
+}
+
+function loadInvoice(i){
+  let x=invoices[i];
+  tab('invoice');
+
+  $('invDate').value=x.invDate;
+  $('customer').value=x.customer;
+  $('address').value=x.address;
+  $('gstin').value=x.gstin;
+  $('sperson').value=x.sperson;
+  $('tax').value=x.tax;
+  $('items').querySelector('tbody').innerHTML='';
+  x.items.forEach(a=>{
+    addItem(a.name,a.qty,a.price);
+    let tr=$('items').querySelector('tbody').lastElementChild;
+    tr.dataset.image=a.image||'';
+  });
+  calc();
+}
+
+function preview(){
+  $('companyPreview').innerHTML=
+    `<b>${esc(settings.name||'Your Company')}</b><br>${nl(settings.address||'')}<br>${esc(settings.contact||'')}<br>${settings.gst?'GSTIN: '+esc(settings.gst):''}`;
+
+  $('cname').value=settings.cname||'';
+  $('caddress').value=settings.caddress||'';
+  $('contact').value=settings.contact||'';
+  $('gst').value=settings.gst||'';
+  $('bankName').value=settings.bankName||'';
+  $('bankAccount').value=settings.bankAccount||'';
+  $('bank').value=settings.bank||'';
+  $('ifsc').value=settings.ifsc||'';
+  $('branch').value=settings.branch||'';
+  $('logo').value=settings.logo||'';
+  $('terms').value=settings.terms||'';
+}
+
+function renderPrintInvoice(){
+  if(!$('printArea')) return;
+  let x=currentInvoice();
+  let s=settings;
+  let splitContact=(s.contact||'').replace(/^Phone:\s*/i,'').split('|');
+  let phone=splitContact[0]||'';
+  let email=splitContact[1]||'';
+  let website=splitContact[2]||'';
+
+  let itemRows=x.items.map((a,i)=>{
+    let product=products.find(p=>p.name===a.name);
+    let img=a.image||product?.image||'';
+    return `<tr>
+      <td class="desc"><b>[${esc(product?.code||'')}] ${esc(a.name)}</b><br>
+        ${product?.code?'HSN/SAC Code: '+esc(product.hsn||''):''}</td>
+      <td class="imgcol">${img?`<img class="product-img" src="${esc(img)}" onerror="this.style.display='none'">`:''}</td>
+      <td class="qtycol">${a.qty.toFixed(2)} UNT</td>
+      <td class="pricecol">${Number(a.price).toLocaleString('en-IN',{minimumFractionDigits:3,maximumFractionDigits:3})}</td>
+      <td class="taxcol">GST ${x.tax}%</td>
+      <td class="amtcol right">${money(a.amount)}</td>
+    </tr>`;
+  }).join('');
+
+  if(!itemRows) itemRows='<tr><td colspan="6" class="empty-note">No products added</td></tr>';
+
+  let sgst=x.tax/2, cgst=x.tax/2;
+  let terms=esc(s.terms||'').replace(/\n/g,'<br>');
+
+  $('printArea').innerHTML=`
+    <div class="inv-top">
+      <div class="inv-logo">
+        ${s.logo?`<img src="jimco.jpeg" onerror="this.style.display='none'">`:`<div class="logo-placeholder">${esc((s.cname||'COMPANY'))}</div>`}
+
+      </div>
+      <div>
+       ${esc(s.caddress||'')}<br>
+</div>
+      <div class="seller">
+        <b>${esc(s.cname||'')}</b><br>
+        ${nl(s.address||'')}<br>
+        ${s.gst?'GSTIN: '+esc(s.gst):''}
+      </div>
+    </div>
+
+    <hr class="inv-line">
+
+    <div class="buyer">
+      <b>${esc(x.customer||'Customer')}</b><br>
+      ${nl(x.address||'Address')}<br>
+      ${x.gstin?' '+esc(x.gstin):''}
+    </div>
+
+    <div class="title-row">
+      <div class="inv-title">Pro-Forma Invoice # ${esc(x.no)}</div>
+      <div class="meta">
+        <b>Order Date:</b> ${esc(x.invDate)}<br>
+        <b>Salesperson:</b> ${esc(x.sperson||'')}
+      </div>
+    </div>
+
+    <table class="invoice-table">
+      <thead>
+        <tr>
+          <th class="desc">DESCRIPTION</th>
+
+          <th class="qtycol">QUANTITY</th>
+          <th class="pricecol">UNIT PRICE</th>
+          <th class="taxcol">TAXES</th>
+          <th class="amtcol">AMOUNT</th>
+        </tr>
+      </thead>
+      <tbody>${itemRows}</tbody>
+    </table>
+
+    <div class="summary-wrap">
+      <table class="summary">
+        <tr><td class="label">Untaxed Amount</td><td class="right">${money(x.subtotal)}</td></tr>
+        <tr><td>SGST on ${money(x.subtotal)}</td><td class="right">${money(x.subtotal*sgst/100)}</td></tr>
+        <tr><td>CGST on ${money(x.subtotal)}</td><td class="right">${money(x.subtotal*cgst/100)}</td></tr>
+        <tr><td class="grand">Total</td><td class="grand right">${money(x.total)}</td></tr>
+      </table>
+    </div>
+
+    <div class="bottom-grid">
+      <div>
+        <h3>Terms &amp; Conditions</h3>
+        <p>${terms}</p>
+      </div>
+      <div>
+        <h3>Bank Details:</h3>
+        <p><b>NAME:</b> ${esc(s.bankName||'')}</p>
+        <p><b>ACCOUNT NUMBER:</b> ${esc(s.bankAccount||'')}</p>
+        <p><b>BANK:</b> ${esc(s.bank||'')}</p>
+        <p><b>IFSC:</b> ${esc(s.ifsc||'')}</p>
+        <p><b>BRANCH:</b> ${esc(s.branch||'')}</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      ${esc(phone)} &nbsp;&nbsp;&nbsp; ${esc(email)} &nbsp;&nbsp;&nbsp; ${esc(website)}
+      <br>Page: 1 / 1
+    </div>`;
+}
+
+function printInvoice(){
+  renderPrintInvoice();
+  window.print();
+}
+
+preview();
+newInvoice();
+renderProducts();
+renderHistory();
+</script>
+</body>
+</html>

@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9b2d78f-6515-4c98-b135-a437858aa6f4" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="510" column="0" lean-forward="true" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1790552011452" expanded="true" signature="9818:10041" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="9864:10036" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="12196:12463" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="13036:13227" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="14430:15301" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="15306:15864" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="15330:15454" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16120:16309" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16120:16526" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16120:18484" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16149:16159" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16149:16293" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16149:16295" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16149:16297" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16149:16309" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16321:16330" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16321:16362" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16389:16515" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16578:16712" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16741:16957" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16834:16946" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="16992:17310" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17006:17264" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17019:17249" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17342:17802" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17372:17791" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17833:18249" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17845:17922" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="17865:17870" ph="&amp;" />
+                <marker date="1790552011452" expanded="true" signature="17934:18238" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="18275:18396" ph="..." />
+                <marker date="1790552011452" expanded="true" signature="18297:18303" ph=" " />
+                <marker date="1790552011452" expanded="true" signature="18303:18309" ph=" " />
+                <marker date="1790552011452" expanded="true" signature="18309:18315" ph=" " />
+                <marker date="1790552011452" expanded="true" signature="18330:18336" ph=" " />
+                <marker date="1790552011452" expanded="true" signature="18336:18342" ph=" " />
+                <marker date="1790552011452" expanded="true" signature="18342:18348" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vv.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vv.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="457" column="155" lean-forward="false" selection-start-line="457" selection-start-column="139" selection-end-line="457" selection-end-column="155" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1790549986592" expanded="true" signature="10955:11178" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="11001:11173" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="13370:13637" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="14210:14401" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="16471:17029" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="16495:16619" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="17285:17655" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="17314:17491" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="17518:17644" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="17707:17840" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="17869:18086" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="17962:18075" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="18121:18478" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="18135:18432" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="18148:18417" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="18510:18970" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="18540:18959" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="19001:19417" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="19013:19090" ph="..." />
+                <marker date="1790549986592" expanded="false" signature="19033:19038" ph="&amp;" />
+                <marker date="1790549986592" expanded="true" signature="19102:19406" ph="..." />
+                <marker date="1790549986592" expanded="true" signature="19443:19564" ph="..." />
+                <marker date="1790549986592" expanded="false" signature="19465:19471" ph=" " />
+                <marker date="1790549986592" expanded="false" signature="19471:19477" ph=" " />
+                <marker date="1790549986592" expanded="false" signature="19477:19483" ph=" " />
+                <marker date="1790549986592" expanded="false" signature="19498:19504" ph=" " />
+                <marker date="1790549986592" expanded="false" signature="19504:19510" ph=" " />
+                <marker date="1790549986592" expanded="false" signature="19510:19516" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quotation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>invoice</find>
+      <find>printI</find>
+      <find>printInvoice</find>
+      <find>prin</find>
+      <find>BRANCH: KOCHI KADAVANTARA</find>
+      <find>renderPrintInvoice();</find>
+      <find>invNo</find>
+      <find>settings</find>
+      <find>inv-logo</find>
+      <find>bankName</find>
+      <find>phone</find>
+      <find>salesperson</find>
+      <find>customer</find>
+      <find>sperson</find>
+      <find>invDate</find>
+      <find>gstin</find>
+      <find>name</find>
+      <find>a.name</find>
+      <find>cname</find>
+      <find>caddress</find>
+      <find>logo</find>
+      <find>preview</find>
+      <find>companyPreview</find>
+      <find>renderHistory</find>
+      <find>COMPANY</find>
+      <find>itemRows</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/quotation.py" />
+        <option value="$PROJECT_DIR$/vv.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quotation-Making" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quotation-Making" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\athir\PycharmProjects\Quotation-Making" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Quotation-Making/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="vv.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Quotation-Making/vv.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Quotation-Making" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\athir\untitled\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quotation-Making" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.vv.html" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.vv.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9b2d78f-6515-4c98-b135-a437858aa6f4" name="Default" comment="" />
+      <created>1790535009290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790535009290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="718" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27300614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1790552011452" expanded="true" signature="9818:10041" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="9864:10036" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="12196:12463" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="13036:13227" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="14430:15301" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15306:15864" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15330:15454" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16526" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:18484" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16159" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16293" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16295" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16297" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16330" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16362" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16389:16515" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16578:16712" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16741:16957" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16834:16946" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16992:17310" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17006:17264" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17019:17249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17342:17802" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17372:17791" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17833:18249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17845:17922" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17865:17870" ph="&amp;" />
+            <marker date="1790552011452" expanded="true" signature="17934:18238" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18275:18396" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18297:18303" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18303:18309" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18309:18315" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18330:18336" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18336:18342" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18342:18348" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7395">
+          <caret line="435" column="34" lean-forward="false" selection-start-line="435" selection-start-column="34" selection-end-line="435" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1790552011452" expanded="true" signature="9818:10041" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="9864:10036" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="12196:12463" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="13036:13227" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="14430:15301" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15306:15864" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15330:15454" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16526" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:18484" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16159" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16293" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16295" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16297" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16330" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16362" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16389:16515" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16578:16712" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16741:16957" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16834:16946" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16992:17310" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17006:17264" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17019:17249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17342:17802" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17372:17791" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17833:18249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17845:17922" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17865:17870" ph="&amp;" />
+            <marker date="1790552011452" expanded="true" signature="17934:18238" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18275:18396" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18297:18303" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18303:18309" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18309:18315" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18330:18336" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18336:18342" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18342:18348" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="123" lean-forward="false" selection-start-line="61" selection-start-column="123" selection-end-line="61" selection-end-column="123" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1790552011452" expanded="true" signature="9818:10041" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="9864:10036" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="12196:12463" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="13036:13227" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="14430:15301" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15306:15864" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15330:15454" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16526" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:18484" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16159" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16293" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16295" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16297" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16330" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16362" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16389:16515" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16578:16712" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16741:16957" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16834:16946" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16992:17310" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17006:17264" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17019:17249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17342:17802" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17372:17791" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17833:18249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17845:17922" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17865:17870" ph="&amp;" />
+            <marker date="1790552011452" expanded="true" signature="17934:18238" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18275:18396" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18297:18303" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18303:18309" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18309:18315" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18330:18336" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18336:18342" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18342:18348" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1790552011452" expanded="true" signature="9818:10041" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="9864:10036" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="12196:12463" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="13036:13227" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="14430:15301" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15306:15864" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15330:15454" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16526" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:18484" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16159" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16293" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16295" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16297" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16330" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16362" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16389:16515" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16578:16712" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16741:16957" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16834:16946" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16992:17310" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17006:17264" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17019:17249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17342:17802" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17372:17791" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17833:18249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17845:17922" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17865:17870" ph="&amp;" />
+            <marker date="1790552011452" expanded="true" signature="17934:18238" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18275:18396" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18297:18303" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18303:18309" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18309:18315" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18330:18336" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18336:18342" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18342:18348" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_ipython_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="457" column="155" lean-forward="false" selection-start-line="457" selection-start-column="139" selection-end-line="457" selection-end-column="155" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1790549986592" expanded="true" signature="10955:11178" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="11001:11173" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="13370:13637" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="14210:14401" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="16471:17029" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="16495:16619" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="17285:17655" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="17314:17491" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="17518:17644" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="17707:17840" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="17869:18086" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="17962:18075" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="18121:18478" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="18135:18432" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="18148:18417" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="18510:18970" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="18540:18959" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="19001:19417" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="19013:19090" ph="..." />
+            <marker date="1790549986592" expanded="false" signature="19033:19038" ph="&amp;" />
+            <marker date="1790549986592" expanded="true" signature="19102:19406" ph="..." />
+            <marker date="1790549986592" expanded="true" signature="19443:19564" ph="..." />
+            <marker date="1790549986592" expanded="false" signature="19465:19471" ph=" " />
+            <marker date="1790549986592" expanded="false" signature="19471:19477" ph=" " />
+            <marker date="1790549986592" expanded="false" signature="19477:19483" ph=" " />
+            <marker date="1790549986592" expanded="false" signature="19498:19504" ph=" " />
+            <marker date="1790549986592" expanded="false" signature="19504:19510" ph=" " />
+            <marker date="1790549986592" expanded="false" signature="19510:19516" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="510" column="0" lean-forward="true" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1790552011452" expanded="true" signature="9818:10041" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="9864:10036" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="12196:12463" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="13036:13227" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="14430:15301" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15306:15864" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="15330:15454" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:16526" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16120:18484" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16159" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16293" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16295" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16297" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16149:16309" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16330" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16321:16362" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16389:16515" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16578:16712" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16741:16957" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16834:16946" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="16992:17310" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17006:17264" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17019:17249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17342:17802" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17372:17791" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17833:18249" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17845:17922" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="17865:17870" ph="&amp;" />
+            <marker date="1790552011452" expanded="true" signature="17934:18238" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18275:18396" ph="..." />
+            <marker date="1790552011452" expanded="true" signature="18297:18303" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18303:18309" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18309:18315" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18330:18336" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18336:18342" ph=" " />
+            <marker date="1790552011452" expanded="true" signature="18342:18348" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
